@@ -1,0 +1,8 @@
+[Unit]
+Description=Decryption
+
+[Service]
+ExecStart= /home/client/Documents/GSLW_TP3_stationcryptage/TP3_stationcryptage/TP3_stationcryptage/bin/crypt.sh
+
+[Install]
+WantedBy=multi-user.target
